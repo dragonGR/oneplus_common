@@ -17,9 +17,9 @@
 # overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# DevicHandler
+# DeviceHandler
 PRODUCT_PACKAGES += \
-	DeviceHandler
+    DeviceHandler
 
 # Doze
 PRODUCT_PACKAGES += \
@@ -29,6 +29,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libvulkan \
     DisplayMode
+
+# Pocketmode
+PRODUCT_PACKAGES += \
+    OneplusPocketMode
 
 # Google extra permissions and features
 PRODUCT_COPY_FILES += \
