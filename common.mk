@@ -27,7 +27,6 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_PACKAGES += \
-    libvulkan \
     DisplayMode
 
 # Pocketmode
@@ -46,4 +45,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/common/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml \
     $(LOCAL_PATH)/prebuilt/common/etc/sysconfig/pixel_2018_exclusive.xml:system/etc/sysconfig/pixel_2018_exclusive.xml \
     $(LOCAL_PATH)/prebuilt/common/etc/sysconfig/pixel_experience_2017.xml:system/etc/sysconfig/pixel_experience_2017.xml \
-    $(LOCAL_PATH)/prebuilt/common/etc/sysconfig/pixel_experience_2018.xml:system/etc/sysconfig/pixel_experience_2018.xml
+    $(LOCAL_PATH)/prebuilt/common/etc/sysconfig/pixel_experience_2018.xml:system/etc/sysconfig/pixel_experience_2018.xml \
+    $(LOCAL_PATH)/prebuilt/common/etc/apns-conf.xml:system/etc/apns-conf.xml
+
